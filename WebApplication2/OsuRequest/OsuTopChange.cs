@@ -22,7 +22,7 @@ namespace WebApplication2.OsuRequest
 
     public class OsuTopChange
     {
-        private readonly string APIkey = "f06cd7234c6979b892a4ea9a6226f128183231d7";
+        private readonly string APIkey = "";
         private readonly string RegofHtmltoText = "<.+?>";
         private readonly string RegofInfo = "(?=Player Name)(.*)(?=Displaying)";//(?=Displaying)";
         private List<OsuUser> getContent(int pageNumber)
