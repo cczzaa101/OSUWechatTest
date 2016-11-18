@@ -47,7 +47,7 @@ namespace WebApplication2.OsuRequest
 
     public class OsuRequestBase
     {
-        private readonly string APIkey = "f06cd7234c6979b892a4ea9a6226f128183231d7";
+        private readonly string APIkey = "";
         private readonly string[] APIType = { "get_user?u=","get_match?mp=","get_beatmaps?b="};
         public string getContent(string requestData,int AType)
         {
